@@ -1,0 +1,5 @@
+(((fundamental-mode . ido-find-file) . 1)
+((minibuffer-inactive-mode . ido-magic-forward-char) . 1)
+((js2-mode . ido-magic-forward-char) . 1)
+((minibuffer-inactive-mode . ido-find-file) . 2)
+)

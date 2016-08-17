@@ -1,0 +1,40 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("f:/" . "org/")
+ ("f:/org/" . "work/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "f:/org/work/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "20160816.org"
+ "20160815.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("f:/org/work/" (22450 49716 0 0) "20160816.org" "20160815.org" "../" "./")
+
+ ("c:/Users/" (22404 42627 0 0) "xmairAPC/" "weisite/" "weiphp/" "WebSNMS/" "VIPShare/" "SportSite/" "Public/" "opt/" "NorcsWeb/" "MSSQL$HXL/" "MainService/" "HuairAPCService/" "HnAirWeb/" "efb下载/" "desktop.ini" "DefaultAppPool/" "Default User/" "Default/" "Classic .NET AppPool/" "ASP.NET v4.0/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/Users/Administrator/" (22449 47031 0 0) "「开始」菜单/" "~/" "_viminfo" "Videos/" "Tracing/" "Templates/" "SendTo/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "Oracle/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "node_modules/" "NetHood/" "My Documents/" "Music/" "Local Settings/" "IntelGraphicsProfiles/" "imp.log" "hnair_asip_dump.SQL" "FirstTest/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "bin/" "Application Data/" "AppData/" "apktool/" ".zs" ".ZendStudio/" ".zend/" ".vscode/" ".VirtualBox/" ".vim/" ".tooling/" ".ssh/" ".sass-cache/" ".p2/" ".oracle_jre_usage/" ".node_repl_history" ".koala/" ".javamod.properties" ".gradle/" ".gnupg/" ".gitconfig" ".gem/" ".eclipse/" ".cordova/" ".config/" ".codeintel/" ".cache/" ".babel.json" ".AndroidStudio2.1/" ".AndroidStudio1.5/" ".android/" "../" "./")
+
+ ("f:/svn/风险管控/Norcs/Sources/NavChina.ORCS/NavChina.ORCS/Views/Statistics/" (22450 49460 0 0) "StaFlight.cshtml" "StaAlertHis.cshtml" "GraphsFlightAlert.cshtml" "FltAccidentDetail.cshtml" "FlightAlert.cshtml" "FlightAccident.cshtml" "../" "./")
+
+ ("f:/org/" (22449 57359 0 0) "work/" "../" "./")
+
+ ("d:/Program Files/" (22448 29156 0 0) "python3/" "Oracle/" "Microvirt/" "Java/" "Genymobile/" "Foxmail 7.2/" "FileZilla-3.17.0.1/" "FileZilla FTP Client/" "feiq/" "emacs25.0.94/" "emacs24.5/" "eclipse/" "DAUM/" "CCleaner/" "AutoHotkey/" "Android/" "../" "./")
+
+ ("d:/Program Files/emacs24.5/" (22447 3027 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("d:/Program Files/emacs24.5/bin/" (21827 21370 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

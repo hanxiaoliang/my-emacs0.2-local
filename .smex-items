@@ -1,22 +1,24 @@
 
 ;; ----- smex-history -----
 (
- customize-group
- package-list-packages
+ omnisharp-start-omnisharp-server
  package-install
+ list-packages
+ package-list-packages
+ customize-group
  package-refresh-contents
  describe-current-coding-system
- cd
- 5x5
 )
 
 ;; ----- smex-data -----
 (
  (describe-current-coding-system . 1)
- (package-install . 6)
- (package-list-packages . 11)
+ (package-install . 15)
+ (package-list-packages . 13)
  (increase-default-font-height . 2)
  (decrease-default-font-height . 1)
  (package-refresh-contents . 5)
  (customize-group . 2)
+ (list-packages . 2)
+ (omnisharp-start-omnisharp-server . 3)
 )

@@ -103,7 +103,9 @@ But you may use safer HTTPS instead.")
     hc-zenburn-theme
     hemisu-theme
     heroku-theme
-    chinese-fonts-setup)
+    chinese-fonts-setup
+    omnisharp
+    csharp-mode)
   "Don't install any Melpa packages except these packages")
 
 ;; We include the org repository for completeness, but don't use it.
@@ -189,7 +191,7 @@ ARCHIVE is the string name of the package archive.")
          )))
 
 ;; un-comment below code if you prefer use all the package on melpa (unstable) without limitation
-;; (setq package-filter-function nil)
+ (setq package-filter-function nil)
 
 ;;------------------------------------------------------------------------------
 ;; Fire up package.el and ensure the following packages are installed.
@@ -198,6 +200,7 @@ ARCHIVE is the string name of the package archive.")
 (require 'package)
 (package-initialize)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
 
 (require-package 'dash) ; required by string-edit
 ; color-theme 6.6.1 in elpa is buggy
@@ -300,5 +303,27 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'quack) ;; for scheme
 (require-package 'hydra)
 (require 'chinese-fonts-setup)
+
+;;omnisharp
+(require 'json)
+(require 'cl-lib)
+(require 'files)
+(require 'ido)
+(require 'thingatpt)
+(require 'dash)
+(require 'compile)
+(require 'dired)
+(require 'popup)
+(require 'etags)
+(require 'flycheck)
+(require 's)
+
+(add-to-list 'load-path (expand-file-name (concat (file-name-directory (or load-file-name buffer-file-name)) "/src/")))
+(add-to-list 'load-path (expand-file-name (concat (file-name-directory (or load-file-name buffer-file-name)) "/src/actions")))
+
+(require 'omnisharp-utils)
+(require 'omnisharp-server-actions)
+(require 'omnisharp-auto-complete-actions)
+(require 'omnisharp-settings)
 
 (provide 'init-elpa)

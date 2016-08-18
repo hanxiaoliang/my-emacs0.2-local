@@ -2,7 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("f:/" . "org/")
+ (#("f:/github/" 3 9 (face flx-highlight-face)) . #("omnisharp-server/" 0 4 (face flx-highlight-face)))
+ ("f:/" . #("github/" 0 2 (face flx-highlight-face)))
  ("f:/org/" . "work/")
 )
 
@@ -19,6 +20,12 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ (#("f:/github/omnisharp-server/" 3 9 (face flx-highlight-face) 10 14 (face flx-highlight-face)) (22453 55318 0 0) "README.md" "packages/" "OmniSharp.Tests/" "omnisharp.sublime-project" "OmniSharp.sln" "OmniSharp/" "NRefactory/" "Microsoft.Build.Evaluation/" "LICENSE.md" "cecil/" ".travis.yml" ".nuget/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ (#("f:/github/" 3 9 (face flx-highlight-face)) (22453 54832 0 0) "zilong-emacs/" "SHTESET2/" "SHEFBtest/" "react/" "ps-zh-emacs/" "ps-emacs/" "Pechkin/" "OrchardDoc/" "Orchard/" "omnisharp-server/" "nopCommerce/" "my-emacs0.2/" "my-emacs/" "Luke-repertory/" "emacs.d/" "data/" "CustomControl/" "CSS3-All-Test/" "bootstrap-sass/" "bootstrap/" "../" "./")
+
+ ("d:/Program Files/" (22453 52872 0 0) "xkeymacs347/" "python3/" "Oracle/" "Microvirt/" "Java/" "Genymobile/" "Foxmail 7.2/" "FileZilla-3.17.0.1/" "FileZilla FTP Client/" "feiq/" "emacs25.0.94/" "emacs24.5/" "eclipse/" "DAUM/" "curl_7_50_1/" "CCleaner/" "Android/" "../" "./")
+
  ("f:/org/work/" (22450 49716 0 0) "20160816.org" "20160815.org" "../" "./")
 
  ("c:/Users/" (22404 42627 0 0) "xmairAPC/" "weisite/" "weiphp/" "WebSNMS/" "VIPShare/" "SportSite/" "Public/" "opt/" "NorcsWeb/" "MSSQL$HXL/" "MainService/" "HuairAPCService/" "HnAirWeb/" "efb下载/" "desktop.ini" "DefaultAppPool/" "Default User/" "Default/" "Classic .NET AppPool/" "ASP.NET v4.0/" "All Users/" "Administrator/" "../" "./")
@@ -28,8 +35,6 @@
  ("f:/svn/风险管控/Norcs/Sources/NavChina.ORCS/NavChina.ORCS/Views/Statistics/" (22450 49460 0 0) "StaFlight.cshtml" "StaAlertHis.cshtml" "GraphsFlightAlert.cshtml" "FltAccidentDetail.cshtml" "FlightAlert.cshtml" "FlightAccident.cshtml" "../" "./")
 
  ("f:/org/" (22449 57359 0 0) "work/" "../" "./")
-
- ("d:/Program Files/" (22448 29156 0 0) "python3/" "Oracle/" "Microvirt/" "Java/" "Genymobile/" "Foxmail 7.2/" "FileZilla-3.17.0.1/" "FileZilla FTP Client/" "feiq/" "emacs25.0.94/" "emacs24.5/" "eclipse/" "DAUM/" "CCleaner/" "AutoHotkey/" "Android/" "../" "./")
 
  ("d:/Program Files/emacs24.5/" (22447 3027 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
 

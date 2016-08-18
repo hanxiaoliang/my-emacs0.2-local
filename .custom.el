@@ -27,3 +27,15 @@
 (recentf-mode 1)
 (setq recentf-max-menu-item 10)
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
+
+;;charp-mode hook
+(defun my-csharp-mode-hook ()
+  ;; enable the stuff you want for C# here
+  (electric-pair-mode 1))
+(add-hook 'csharp-mode-hook 'my-csharp-mode-hook)
+
+;;omnisharp
+(add-hook 'csharp-mode-hook 'omnisharp-mode)
+(setq omnisharp-server-executable-path "F:/github/omnisharp-server/OmniSharp/bin/Debug/OmniSharp.exe")
+;;(setq omnisharp--windows-curl-tmp-file-path "D:/Emacs/home/temp/omnisharp-tmp-file.cs")
+(setq omnisharp-debug t)

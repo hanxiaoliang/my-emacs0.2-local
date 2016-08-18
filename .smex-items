@@ -1,10 +1,10 @@
 
 ;; ----- smex-history -----
 (
- increase-default-font-height
- decrease-default-font-height
+ customize-group
  package-list-packages
  package-install
+ package-refresh-contents
  describe-current-coding-system
  cd
  5x5
@@ -13,8 +13,10 @@
 ;; ----- smex-data -----
 (
  (describe-current-coding-system . 1)
- (package-install . 1)
- (package-list-packages . 1)
+ (package-install . 6)
+ (package-list-packages . 11)
  (increase-default-font-height . 2)
  (decrease-default-font-height . 1)
+ (package-refresh-contents . 5)
+ (customize-group . 2)
 )
